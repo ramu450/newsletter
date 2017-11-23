@@ -1,0 +1,69 @@
+body{
+    background: beige;
+    margin:2% 0 1% 0;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row3{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-gap:1em;
+}
+
+.row3 .r3-1{
+    background: white;
+    margin: 2% 1% 2% 3%;
+}
+.row3 .r3-2{
+    margin: 2% 4% 2% 1%;
+    background: white;
+}
+.activ .data{
+    background: maroon;
+    color:white;
+    text-align: center;
+    font-size: 3.0vw;
+    width: 100%;
+}
+.row3 p{
+    margin:0;
+    padding:1%;
+}
+.row3 .date{
+    padding-left:1%;
+}
+.row4{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0.5em;
+}
+.row4 img{
+float: right;
+height:30vh;
+width:15vw;
+}
+.dead{
+    width:100%;
+    background: black;
+    margin-bottom: 0;
+}
+.dead .head{
+    background:black;
+    color:white;
+    text-align: center;
+    font-size: 2vw;
+    padding-top:0.5vh;
+    width: 100%;
+}
+.row4 .dead1{
+    background:beige;
+    padding:0.5% 0.5% 0.5% 3%;
+
+}
+.row4 .dead2{
+    background: beige;
+    padding: 0.5% 2.5% 0.5% 2%;
+}
+.row4 p{
+    margin: 0;
+}

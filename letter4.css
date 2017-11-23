@@ -1,0 +1,28 @@
+body{
+    background: beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:10px 20px 0 20px;
+}
+.row7{
+    display: grid;
+    grid-template-columns:repeat(4,25%);
+    margin-top: 10px;
+    overflow-x: hidden;
+}
+.reunion .data{
+    position: relative;
+    background: brown;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.row7 img{
+    width:35vw;
+    height:35vh;
+}
+ .union {
+    position:absolute;
+    top: 40%;
+    left: 40%;
+    color: brown;
+}

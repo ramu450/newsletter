@@ -1,0 +1,133 @@
+body{
+    background: beige;
+    font-family: verdana;
+}
+.header {
+display:grid;
+grid-template-columns: 15% 65% 20%;
+width:100%;
+padding-bottom: 5px;
+border-bottom: 3px solid orangered;
+}
+.h1 img{
+    margin: 1%;
+    height:30vh;
+    width:20vw;
+    border: 1px solid red;
+}
+.h3 img{
+   margin:5px 0px;
+    height:30vh;
+    width:20vw;
+    border: 1px solid red;
+}
+.h2{
+     text-align: center;
+}
+.h2-1{
+    font-size: 2vw;
+    color:red;
+}
+.h2-2,.h2-3{
+    text-align: center;
+    color:purple;
+    font-size: 1.5vw;
+}
+
+.volume{
+    border-bottom:3px solid orangered;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    font-size: 1.8vh;
+    color: purple;
+}
+.volume .vol,.volume .yr{
+}
+.row1{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-gap: 1em;
+    overflow-x: hidden;
+    padding: 1% 4%;
+}
+ .row1 .foreword,.row1 .appeal{  
+    border:2px solid purple;
+    background:#f9dbfc;
+}
+.foreword .data{
+    margin: 0;
+    color:orangered;
+    font-size: 20px;
+    padding: 5px;
+}
+.foreword p{
+    margin: 0;
+    line-height:1.5em;
+    color: brown;
+    font-size: 12px;
+    font-style: italic;
+    padding: 0 10px 10px 10px;
+}
+.appeal .data{
+    margin: 0;
+    background:brown;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+.appeal p{
+    font-style:italic;
+    line-height: 3em;
+    color:crimson;
+    padding:0 5px 0 5px;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+    overflow-x: hidden;
+    padding: 10px 40px;
+
+}
+.assoc .data{
+    margin: 0;
+    background:brown;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+.core .data{
+    margin: 0;
+    color:white;
+    background: orangered;
+    text-align: center;
+    font-size: 30px;
+}
+.row2 .core{
+    border:3px solid orangered;
+}
+.assoc .date{
+    padding:20px 10px 0px 20px;
+    font-size: 20px;
+    color: green;
+}
+.row2 .assoc{
+border:3px solid brown;
+}
+.assoc p{
+    margin: 0;
+    padding:0 10px 0px 20px;
+}
+.assoc .cont{
+    float:right;
+    font-style: italic;
+    padding: 5px 10px 5px 0;
+}
+.core dt{
+  color: orangered;
+}
+.core dd{
+color: blue;
+text-align: center;
+}
